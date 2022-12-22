@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Dancing Script', cursive;
+}
+
+.max-width1 {
+    max-width: 80vw;
+}
+
+.max-width2 {
+    max-width: 60vw;
+}
+
+.margin-auto{
+    margin: auto;
+}
+.mauto{
+    margin: auto;
+}
+.btn {
+    padding: 5px 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-input {
+    padding: 5px 7px;
+    border: 2px solid black;
+    font-size: 12px;
+    border-radius: 5px;
+    margin: 0 5px;
+}

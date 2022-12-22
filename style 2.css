@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Qwitcher+Grypen:wght@400;700&display=swap');
+:root{
+    --variabla:rgb(159, 187, 38);
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    /* background: black; */
+    background-color: var(--variabla);
+    font-family: 'Combo', cursive;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    padding: 0 25px;
+
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: aqua;
+    /* text-decoration: none; */
+    font-style: italic;
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.search input{
+    width: 495px;
+    height: 15px;
+    border-radius: 4px;
+    margin: 0 12px 0 52px;
+    padding: 0 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.search button{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: bold;
+}
+main{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+}
+/* .container{
+    min-height: calc(100vh -58px -12vh);
+} */
+
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Combo', cursive;
+    font-family: 'Qwitcher Grypen', cursive;
+}
